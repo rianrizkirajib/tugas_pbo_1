@@ -12,8 +12,8 @@ dan java.lang.invoke. API baru memungkinkan mengontrol vektorisasi secara ekspli
 diusulkan implementasi awal kedua dari Foreign Function and Memory API, yang dengannya aplikasi dapat berinteraksi dengan kode dan data 
 di luar waktu proses Java.
 Perubahan lainnya yang menonjol :
-1.	JavaDoc mendukung tag “@potogan>> untuk meyematkan contoh kerja dan cuplikan kode ke dalam dokumentasi API.
-2.	Tidak di gunakan lagi dan akan di hapus dalam rilis mendatang, mekanisme penyelesaian, serta metode seperti Object.finalize(), 
-    Enum.finalize(), Runtime.runfinalization(), dan System.runfinalization().
-3.	Pengumpul sampah ZGC, Serial GC dan Parallel GC mereka mendukung deduplikasi string.
-4.	Rilis ini akan menerima pembaruan hingga 2029.
+1. JavaDoc mendukung tag “@potogan>> untuk meyematkan contoh kerja dan cuplikan kode ke dalam dokumentasi API.
+2. Tidak di gunakan lagi dan akan di hapus dalam rilis mendatang, mekanisme penyelesaian, serta metode seperti Object.finalize(), 
+   Enum.finalize(), Runtime.runfinalization(), dan System.runfinalization().
+3. Pengumpul sampah ZGC, Serial GC dan Parallel GC mereka mendukung deduplikasi string.
+4. Rilis ini akan menerima pembaruan hingga 2029.
